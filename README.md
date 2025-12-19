@@ -95,6 +95,7 @@ CI/CD pipeline for model updates
 ## 👤 Author
 
 Soumen Kundu
+
 🔗 LinkedIn: https://www.linkedin.com/in/Samacker25
 
 🔗 GitHub: https://github.com/Samacker25
