@@ -1,4 +1,5 @@
 🧠 Next Word Predictor – NLP Deep Learning Application
+
 🔗 Live Demo
 
 👉 Streamlit App: https://samacker25-next-word-predictor.streamlit.app/
