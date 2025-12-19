@@ -2,6 +2,7 @@
 🔗 Live Demo
 
 👉 Streamlit App: https://samacker25-next-word-predictor.streamlit.app/
+
 👉 Model Hub: https://huggingface.co/Samacker25/next-word-predictor
 
 📌 Overview
