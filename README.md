@@ -1,19 +1,19 @@
 ## 🧠 Next Word Predictor – NLP Deep Learning Application
 
-🔗 Live Demo
+## 🔗 Live Demo
 
-👉 Streamlit App: https://samacker25-next-word-predictor.streamlit.app/
+ Streamlit App: https://samacker25-next-word-predictor.streamlit.app/
 
-👉 Model Hub: https://huggingface.co/Samacker25/next-word-predictor
+ Model Hub: https://huggingface.co/Samacker25/next-word-predictor
 
-📌 Overview
+## 📌 Overview
 
 This project is an end-to-end Next Word Prediction system built using Deep Learning for NLP.
 Given an input text sequence, the model predicts the most probable next word using sequence modeling.
 
 The trained model is versioned and stored on Hugging Face Model Hub, while the inference UI is deployed using Streamlit Cloud, following clean ML deployment practices.
 
-🚀 Features
+## 🚀 Features
 
 Predicts the next word from an input text sequence
 
@@ -27,7 +27,7 @@ Streamlit-based interactive web UI
 
 Fully reproducible & version-locked environment
 
-🧩 Tech Stack
+## 🧩 Tech Stack
 
 Language: Python
 
@@ -43,7 +43,8 @@ Frontend: Streamlit
 
 Deployment: Streamlit Cloud
 
-🏗️ Architecture
+## 🏗️ Architecture
+
 Training Notebook
       ↓
 Keras (.keras) Model
@@ -54,7 +55,8 @@ Streamlit App (Inference)
       ↓
 Live Web Application
 
-📁 Project Structure
+## 📁 Project Structure
+
 next-word-predictor/
 ├── app/
 │   └── main.py
@@ -64,7 +66,7 @@ next-word-predictor/
 
 Model artifacts (.keras, tokenizer.pkl) are stored separately in Hugging Face Model Hub.
 
-⚙️ Model Loading Strategy
+## ⚙️ Model Loading Strategy
 
 Training and inference environments are aligned (TensorFlow 2.19 + Keras 3)
 
@@ -74,11 +76,11 @@ Artifacts are cached safely using Streamlit resource caching
 
 This avoids common serialization and compatibility issues.
 
-▶️ Run Locally
+## ▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app/main.py
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Top-K word predictions with probabilities
 
@@ -90,7 +92,7 @@ Dockerized deployment
 
 CI/CD pipeline for model updates
 
-👤 Author
+## 👤 Author
 
 Soumen Kundu
 🔗 LinkedIn: https://www.linkedin.com/in/Samacker25
