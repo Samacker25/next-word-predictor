@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# model files
+*.h5
+*.keras
+*.pkl
+app/trained_model/ 
+next-word-predictor/
+
+# Virtual environment
+.venv/
+venv/
+env/
