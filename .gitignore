@@ -211,7 +211,7 @@ __marimo__/
 *.keras
 *.pkl
 app/trained_model/ 
-next-word-predictor/
+next-word-predictor-model/
 
 # Virtual environment
 .venv/
